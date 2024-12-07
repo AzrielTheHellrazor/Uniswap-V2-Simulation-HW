@@ -134,7 +134,7 @@ function main() {
         case "3":
             const tokenType = prompt("Enter the type of the token you want to swap: ");
             const swapAmount = prompt("Enter the amount of the token you want to swap: ");
-            swap(tokenType, swapAmount);
+            swap(tokenType, Number(swapAmount));
             break;
         case "4":
             viewPool();
